@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nodeserver
-        image: bhargaviborra506/nodeapp_test:latest
+        image: bhargaviborra506/nodeapp:latest
         ports:
         - containerPort: 3000
         
