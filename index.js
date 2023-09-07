@@ -6,7 +6,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/will', function (req, res) {
-    res.send('{ "response": "Webhook integration with jenkins is working now" }');
+    res.send('{ "response": "Webhook integration with jenkins is working-testing" }');
 });
 app.get('/ready', function (req, res) {
     res.send('{ "response": " Great!, It works!" }');
