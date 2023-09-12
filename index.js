@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 app.get('/', function (req, res) {
-    res.send('{ "response": "Hello, This is demo for Jenkins pipeline- Testing" }');
+    res.send('{ "response": "Hello, This is demo for Jenkins pipeline" }');
 });
 
 app.get('/will', function (req, res) {
